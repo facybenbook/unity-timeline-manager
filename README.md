@@ -153,3 +153,10 @@ about whether it will play smoothly at higher frame rates.  The `FrameReady`
 event that the `VideoPlayer` emits is supposedly a **very** expensive method
 to employ, however, it was a readymade way to isolate the components and
 control the animation.
+
+**UPDATE:** **01/15/2019** I have this running in another project at 30 FPS, but there is an
+issue where you cannot Seek to very particular frames (every 40th??).  I am
+absolutely convinced this is something in the authoring of the video and 
+nothing to do with the animation clips. Further testing is needed.
+The video plays with no detectable slowdown within the Editor, something that
+I was _sure_ was going to be a problem.
